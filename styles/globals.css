@@ -46,6 +46,28 @@ p {
   box-sizing: border-box;
 }
 
+a {
+  display: flex;
+  color: red;
+  justify-self: right;
+  margin-right: 10px;
+}
+
+.navContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 100px;
+}
+.aboutContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100px;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
