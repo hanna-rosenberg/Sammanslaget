@@ -15,9 +15,9 @@ function Game() {
 
 export default function Index() {
   return (
-    <>
+    <div className="container">
       <Header />
       <Game />
-    </>
+    </div>
   );
 }

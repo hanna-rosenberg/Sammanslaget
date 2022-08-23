@@ -4,12 +4,22 @@ body {
   padding: 0;
   background-color: white;
   margin: 0;
+  background-color: black;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-canvas {
-  max-width: 100%;
+.container {
+  display: grid;
+  grid-auto-columns: 1;
+  grid-auto-rows: 2;
+  height: 100vh;
+  max-height: 100vh;
+}
+
+.container canvas {
+  margin: 0 auto;
+  max-width: 80vw;
 }
 
 a {
