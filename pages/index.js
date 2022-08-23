@@ -14,9 +14,11 @@ function Game() {
   return <Unity unityProvider={unityProvider} />;
 }
 
-export default () => (
-  <>
-    <Header />
-    <Game />
-  </>
-);
+export default function Index() {
+  return (
+    <>
+      <Header />
+      <Game />
+    </>
+  );
+}
