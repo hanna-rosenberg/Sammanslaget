@@ -1,5 +1,4 @@
 import Card from "../components/Card";
-import Logo from "../public/Logo.png";
 import Brown from "../public/frames/brown.svg";
 import Pink from "../public/frames/pink.svg";
 import Orange from "../public/frames/orange.svg";
@@ -14,7 +13,7 @@ export default function About() {
   return (
     <div>
       <Header></Header>
-      <div className="aboutContainer1">
+      <div className="aboutContainer">
         <Image src={Background}></Image>
         <div className="description">
           <Card
