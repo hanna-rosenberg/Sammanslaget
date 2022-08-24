@@ -5,9 +5,10 @@ export default function Header() {
     <nav>
       <div className="navContainer">
         <div className="left"></div>
-
-        <div className="logoContainer">Theory of Källsortering</div>
-
+        <div className="logoContainer">
+          <img src="Logo.png"></img>
+          <h1>Theory of Källsortering</h1>
+        </div>
         <div className="aboutContainer">
           <Link href="about">
             <a>Om oss</a>
