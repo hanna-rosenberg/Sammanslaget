@@ -10,14 +10,22 @@ body {
 }
 
 .description {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  place-items: center;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr; */
+  display: flex;
+  flex-wrap: wrap;
+  /* place-items: center; */
+  max-width: 100%;
+  justify-content: space-between;
+  gap: 4rem;
 }
 
 .cardContainer {
   position: relative;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
+  width: 100%;
+  aspect-ratio: 1;
+  width: fit-content;
 }
 
 .name {
@@ -47,6 +55,15 @@ body {
   grid-auto-rows: 2;
   height: 100vh;
   max-height: 100vh;
+}
+
+.aboutContainer1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+  gap: 4rem;
 }
 
 .container canvas {
