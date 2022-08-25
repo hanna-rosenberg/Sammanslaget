@@ -18,7 +18,7 @@ export default function About() {
         <div className="backgroundContainer">
           <Image src={Background} className="backgroundImg"></Image>
           <div className="introduction">
-            <h2 className="greeting">Hej!</h2>
+            <h2 className="greeting">HEJ!</h2>
             <p className="aboutText">
               Vi är fem glada studenter från Yrgo som tillsammans har skapat
               denna hemsida. Syftet är att öka kunskapen kring hur människor kan
