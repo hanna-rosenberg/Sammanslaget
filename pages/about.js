@@ -14,23 +14,28 @@ export default function About() {
     <div>
       <Header></Header>
       <div className="aboutContainer">
-        <Image src={Background}></Image>
+        <Image src={Background} className="backgroundImg"></Image>
+        <div className="introduction">
+          <h2 className="greeting">Hej!</h2>
+          <p className="aboutText">
+            Vi är fem glada studenter från Yrgo som tillsammans har skapat denna
+            hemsida. Syftet är att öka kunskapen kring hur människor kan bidra
+            till ett cirkulärt samhälle genom att skänka och källsortera saker
+            som inte längre behövs, eller har förbrukats.
+          </p>
+        </div>
         <div className="description">
+          <Card name="Teodor Söderberg" role="UX-designer" image={Brown}></Card>
+          <Card name="Neo Lejondahl" role="Webbutvecklare" image={Pink}></Card>
           <Card
             name="Hanna Rosenberg"
             role="Webbutvecklare"
-            image={Brown}
+            image={Orange}
           ></Card>
-          <Card name="Neo Lejondahl" role="Webbutvecklare" image={Pink}></Card>
-          <Card name="Emma Finnäle" role="Webbutvecklare" image={Orange}></Card>
-          <Card
-            name="Teodor Söderberg"
-            role="Webbutvecklare"
-            image={Blue}
-          ></Card>
+          <Card name="Emma Finnilä" role="Game Artist" image={Blue}></Card>
           <Card
             name="Victoria Amiri"
-            role="Webbutvecklare"
+            role="Game Programmer"
             image={BrownSecond}
           ></Card>
           <Card
