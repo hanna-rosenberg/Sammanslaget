@@ -8,21 +8,24 @@ import BlueSecond from "../public/frames/blueSecond.svg";
 import Background from "../public/frames/background.svg";
 import Image from "next/image";
 import Header from "../components/Header";
+import Yrgo from "../components/Yrgo.js";
 
 export default function About() {
   return (
     <div>
       <Header></Header>
       <div className="aboutContainer">
-        <Image src={Background} className="backgroundImg"></Image>
-        <div className="introduction">
-          <h2 className="greeting">Hej!</h2>
-          <p className="aboutText">
-            Vi är fem glada studenter från Yrgo som tillsammans har skapat denna
-            hemsida. Syftet är att öka kunskapen kring hur människor kan bidra
-            till ett cirkulärt samhälle genom att skänka och källsortera saker
-            som inte längre behövs, eller har förbrukats.
-          </p>
+        <div className="backgroundContainer">
+          <Image src={Background} className="backgroundImg"></Image>
+          <div className="introduction">
+            <h2 className="greeting">Hej!</h2>
+            <p className="aboutText">
+              Vi är fem glada studenter från Yrgo som tillsammans har skapat
+              denna hemsida. Syftet är att öka kunskapen kring hur människor kan
+              bidra till ett cirkulärt samhälle genom att skänka och källsortera
+              saker som inte längre behövs, eller har förbrukats.
+            </p>
+          </div>
         </div>
         <div className="description">
           <Card name="Teodor Söderberg" role="UX-designer" image={Brown}></Card>
@@ -38,11 +41,11 @@ export default function About() {
             role="Game Programmer"
             image={BrownSecond}
           ></Card>
-          <Card
+          <Yrgo
             name="Yrgo Göteborg"
-            role="Lärdomsgatan"
+            website="YRGO.SE"
             image={BlueSecond}
-          ></Card>
+          ></Yrgo>
         </div>
       </div>
     </div>
