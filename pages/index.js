@@ -1,6 +1,4 @@
 import Header from "../components/Header";
-import React from "react";
-import { Unity, useUnityContext } from "react-unity-webgl";
 import Background from "../public/frames/background.svg";
 import Image from "next/image";
 import Yrgo from "../components/Yrgo.js";
@@ -12,17 +10,6 @@ import Metal from "../public/icons/metal.svg";
 import Paper from "../public/icons/paper.svg";
 import Plastic from "../public/icons/plastic.svg";
 import Link from "next/link";
-
-function Game() {
-  const { unityProvider } = useUnityContext({
-    loaderUrl: "Build/SammanslagetHackaton(WebGL).loader.js",
-    dataUrl: "Build/SammanslagetHackaton(WebGL).data",
-    frameworkUrl: "Build/SammanslagetHackaton(WebGL).framework.js",
-    codeUrl: "Build/SammanslagetHackaton(WebGL).wasm",
-  });
-
-  return <Unity unityProvider={unityProvider} />;
-}
 
 export default function Index() {
   return (
