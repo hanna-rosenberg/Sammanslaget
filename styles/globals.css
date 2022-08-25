@@ -114,6 +114,13 @@ h3 {
   font-weight: bold;
   font-size: 1.2rem;
   color: black;
+  transition: ease-in-out 0.1s;
+}
+
+.playButton:hover {
+  background-color: #e1e1e1;
+  transform: translate(2px,2px);
+  box-shadow: 1px 1px rgb(63, 63, 63);
 }
 
 .introduction {
@@ -159,10 +166,6 @@ h3 {
   color: black;
   font-family: Quicksand;
 }
-
-/* .aboutContainer a :hover {
-  color: pink;
-} */
 
 .website {
   position: absolute;
@@ -229,7 +232,7 @@ nav {
   font-size: 20px;
   height: max-content;
   padding: 0.5rem;
-  background-color: #e3c7b2;
+  background-color: white;
 }
 
 nav img {
@@ -254,6 +257,15 @@ nav a {
 
 nav a {
   justify-self: right;
+  transition: ease-in-out 0.2s;
+  font-family: Quicksand;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+nav a:hover {
+  color: #d20a04;
+  text-decoration-color: black;
 }
 
 .navContainer {
