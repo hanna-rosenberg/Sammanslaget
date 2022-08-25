@@ -208,6 +208,14 @@ h3 {
   border-radius: 0.25rem;
 }
 
+.container p {
+  display: none;
+  text-align: center;
+  font-family: Quicksand;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
 a {
   text-decoration: none;
 }
@@ -259,4 +267,52 @@ nav a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+@media screen and (max-width: 992px) {
+  nav{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  nav h1 {
+    font-size: 1.3rem;
+  }
+
+  .container canvas {
+    display: none;
+  }
+
+  .container p {
+    display: inline;
+  }
+
+  .aboutContainer {
+    width: 95%;
+  }
+
+  .introduction {
+    gap:0.25rem;
+  }
+
+  .greeting {
+    font-size: 1.2rem;
+  }
+
+  .aboutText{
+    font-size: 0.8rem;
+  }
+
+  .description{
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .recycle ul {
+    list-style-position: outside;
+  }
+
+  .playButton {
+    width: fit-content;
+  }
 }

@@ -18,6 +18,7 @@ export default function Index() {
     <div className="container">
       <Header></Header>
       <Game />
+      <p>Besök på en dator för att spela spelet</p>
     </div>
   );
 }
