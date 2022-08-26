@@ -4,10 +4,10 @@ import { Unity, useUnityContext } from "react-unity-webgl";
 
 function Game() {
   const { unityProvider } = useUnityContext({
-    loaderUrl: "Build/2FallingThingsNotFinished.loader.js",
-    dataUrl: "Build/2FallingThingsNotFinished.data.unityweb",
-    frameworkUrl: "Build/2FallingThingsNotFinished.framework.js.unityweb",
-    codeUrl: "Build/2FallingThingsNotFinished.wasm.unityweb",
+    loaderUrl: "Build/FinishedSammanslagetHackaton.loader.js",
+    dataUrl: "Build/FinishedSammanslagetHackaton.data.unityweb",
+    frameworkUrl: "Build/FinishedSammanslagetHackaton.framework.js.unityweb",
+    codeUrl: "Build/FinishedSammanslagetHackaton.wasm.unityweb",
   });
 
   return <Unity unityProvider={unityProvider} />;
