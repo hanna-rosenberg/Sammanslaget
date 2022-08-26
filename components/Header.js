@@ -25,7 +25,9 @@ export default function Header() {
   return (
     <nav>
       <img src="Logo.png"></img>
-      <h1>Theory of Källsortering</h1>
+      <Link href="/">
+        <a className="homeLink">Theory of Källsortering</a>
+      </Link>
       <div>
         <Image src={recycleIcon} className="recycleIcon"></Image>
         <Button />
