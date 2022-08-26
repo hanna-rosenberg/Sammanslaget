@@ -28,17 +28,34 @@ export default function About() {
           </div>
         </div>
         <div className="description">
-          <Card name="Teodor Söderberg" role="UX-designer" image={Brown}></Card>
-          <Card name="Neo Lejondahl" role="Webbutvecklare" image={Pink}></Card>
+          <Card
+            name="Teodor Söderberg"
+            role="UX-designer"
+            information="Projektledning, grafisk design och användartestning"
+            image={Brown}
+          ></Card>
+          <Card
+            name="Neo Lejondahl"
+            role="Webbutvecklare"
+            information="Programmering, publicering samt optimering av hemsida"
+            image={Pink}
+          ></Card>
           <Card
             name="Hanna Rosenberg"
             role="Webbutvecklare"
+            information="Programmering, publicering samt optimering av hemsida"
             image={Orange}
           ></Card>
-          <Card name="Emma Finnilä" role="Game Artist" image={Blue}></Card>
+          <Card
+            name="Emma Finnilä"
+            role="Game Artist"
+            information="2D grafik, animation och speldesign"
+            image={Blue}
+          ></Card>
           <Card
             name="Victoria Amiri"
             role="Game Programmer"
+            information="Spelprogrammering och implementering av grafik i Unity"
             image={BrownSecond}
           ></Card>
           <Yrgo

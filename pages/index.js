@@ -46,7 +46,7 @@ export default function Index() {
             firstItem={"Konserver"}
             secondItem={"Aliminiumfolie"}
             thirdItem={"Lock av metall"}
-            icon={Compost}
+            icon={Metal}
           ></Recycle>
 
           <Recycle
@@ -54,7 +54,7 @@ export default function Index() {
             firstItem={"Plastpåsar"}
             secondItem={"Plastlock"}
             thirdItem={"Plastlådor"}
-            icon={Glass}
+            icon={Plastic}
           ></Recycle>
 
           <Recycle
@@ -62,14 +62,14 @@ export default function Index() {
             firstItem={"Äppelskruttar"}
             secondItem={"Bananskal"}
             thirdItem={"Snittblommor"}
-            icon={Metal}
+            icon={Compost}
           ></Recycle>
 
           <Recycle
             itemName="Glas"
             firstItem={"Vinflaskor"}
             secondItem={"Glasburkar"}
-            icon={Paper}
+            icon={Glass}
           ></Recycle>
 
           <Recycle
@@ -77,7 +77,7 @@ export default function Index() {
             firstItem={"Mjölkpaket"}
             secondItem={"Karton"}
             thirdItem={"Pappåsar"}
-            icon={Plastic}
+            icon={Paper}
           ></Recycle>
         </div>
         <Link href="/spel">
